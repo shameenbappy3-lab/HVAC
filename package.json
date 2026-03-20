@@ -1,0 +1,28 @@
+{
+  "name": "polaris-hvac",
+  "version": "1.0.0",
+  "description": "Polaris HVAC - Premium comfort and climate control services",
+  "main": "script.js",
+  "scripts": {
+    "dev": "npx http-server -p 3000",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shameenbappy3-lab/HVAC.git"
+  },
+  "keywords": [
+    "hvac",
+    "website",
+    "static"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shameenbappy3-lab/HVAC/issues"
+  },
+  "homepage": "https://github.com/shameenbappy3-lab/HVAC#readme",
+  "dependencies": {
+    "@vercel/analytics": "^2.0.1"
+  }
+}
