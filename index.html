@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+  <title>Polaris HVAC | Premium comfort</title>
+  <!-- Font Awesome 6 -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <!-- AOS (Animate on Scroll) -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <!-- custom CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="main-header" id="mainHeader">
+    <div class="container header-flex">
+      <a href="#" class="logo">Polaris<span>HVAC</span></a>
+      <nav class="nav-bar" id="navBar">
+        <ul class="nav-menu">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#whyus">Why us</a></li>
+          <li><a href="#team">Team</a></li>
+          <li><a href="#testimonials">Testimonials</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <button class="hamburger" id="hamburgerBtn" aria-label="Menu" aria-expanded="false">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- MOBILE MENU OVERLAY -->
+  <div class="nav-overlay" id="navOverlay"></div>
+
+  <!-- FLOATING CALL BUTTON (with pulse) -->
+  <a href="tel:+18884567890" class="floating-call" aria-label="Call us">
+    <i class="fas fa-phone-alt"></i>
+    <span class="call-tooltip">Call now</span>
+  </a>
+
+  <!-- HERO SECTION -->
+  <section class="hero" id="home">
+    <img
+      src="https://images.unsplash.com/photo-1621905251918-48416bd8575a?w=1920&auto=format&fit=crop&q=80"
+      alt="HVAC systems on a modern building rooftop"
+      class="hero-bg-img"
+    >
+    <div class="hero-overlay"></div>
+    <div class="container hero-content" data-aos="fade-up" data-aos-duration="1200">
+      <span class="hero-tagline">— Since 1998 —</span>
+      <h1>Precision climate <span class="text-accent">control</span> for your space</h1>
+      <p>Expert HVAC installation, maintenance & repair. We bring silent comfort and energy efficiency.</p>
+      <div class="hero-btns">
+        <a href="#contact" class="btn-primary">Get free estimate <i class="fas fa-arrow-right"></i></a>
+        <a href="#services" class="btn-outline-light">Explore services</a>
+      </div>
+    </div>
+    <div class="scroll-hint">
+      <span></span>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section class="services" id="services">
+    <div class="container">
+      <div class="section-header" data-aos="fade-down">
+        <span class="section-subtitle">what we do best</span>
+        <h2>Premium HVAC services</h2>
+        <p>Tailored solutions for residential & commercial</p>
+      </div>
+      <div class="services-grid">
+        <div class="service-card" data-aos="zoom-in" data-aos-delay="100">
+          <div class="card-icon"><i class="fas fa-snowflake"></i></div>
+          <h3>AC installation & repair</h3>
+          <p>Central air, ductless mini‑splits, heat pumps – we handle top brands with precision.</p>
+          <a href="#contact" class="card-link">Learn more <i class="fas fa-arrow-right"></i></a>
+        </div>
+        <div class="service-card" data-aos="zoom-in" data-aos-delay="200">
+          <div class="card-icon"><i class="fas fa-fire"></i></div>
+          <h3>Heating & furnace</h3>
+          <p>Gas furnaces, boilers, radiant heating. Keep your space warm efficiently.</p>
+          <a href="#contact" class="card-link">Learn more <i class="fas fa-arrow-right"></i></a>
+        </div>
+        <div class="service-card" data-aos="zoom-in" data-aos-delay="300">
+          <div class="card-icon"><i class="fas fa-wind"></i></div>
+          <h3>Ventilation & IAQ</h3>
+          <p>Improve indoor air quality with purifiers, humidifiers and duct cleaning.</p>
+          <a href="#contact" class="card-link">Learn more <i class="fas fa-arrow-right"></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about" id="about">
+    <div class="container about-flex">
+      <div class="about-image" data-aos="fade-right" data-aos-duration="1000">
+        <img
+          src="https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=800&auto=format&fit=crop&q=80"
+          alt="HVAC technician performing system maintenance"
+          class="img-placeholder"
+        >
+        <div class="experience-badge">
+          <span class="years">25+</span>
+          <span>years of excellence</span>
+        </div>
+      </div>
+      <div class="about-text" data-aos="fade-left" data-aos-duration="1000">
+        <span class="section-subtitle">about polaris</span>
+        <h2>Where craft meets cutting‑edge technology</h2>
+        <p>We don't just fix units – we engineer comfort. Every project is approached with precision, from load calculations to the final calibration. Our NATE-certified technicians stay ahead of the latest HVAC innovations.</p>
+        <div class="about-features">
+          <div class="feature"><i class="fas fa-check-circle"></i> 24/7 emergency service</div>
+          <div class="feature"><i class="fas fa-check-circle"></i> 100% satisfaction guarantee</div>
+          <div class="feature"><i class="fas fa-check-circle"></i> Eco‑friendly solutions</div>
+        </div>
+        <a href="#team" class="btn-primary">Meet the team</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHY US -->
+  <section class="why-us" id="whyus">
+    <div class="container">
+      <div class="section-header" data-aos="fade-down">
+        <span class="section-subtitle">why polaris</span>
+        <h2>Unmatched quality & reliability</h2>
+      </div>
+      <div class="stats-grid" data-aos="flip-up">
+        <div class="stat-item">
+          <span class="stat-number">5,200+</span>
+          <span>systems installed</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-number">98%</span>
+          <span>client retention</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-number">24/7</span>
+          <span>emergency support</span>
+        </div>
+      </div>
+      <div class="reason-grid">
+        <div class="reason-card" data-aos="fade-up" data-aos-delay="0">
+          <i class="fas fa-tools"></i>
+          <h4>Certified experts</h4>
+          <p>All technicians are background-checked, licensed, and continuously trained.</p>
+        </div>
+        <div class="reason-card" data-aos="fade-up" data-aos-delay="100">
+          <i class="fas fa-clock"></i>
+          <h4>On‑time arrival</h4>
+          <p>We value your schedule. Our vans arrive within the promised window.</p>
+        </div>
+        <div class="reason-card" data-aos="fade-up" data-aos-delay="200">
+          <i class="fas fa-leaf"></i>
+          <h4>Green technology</h4>
+          <p>Energy‑efficient systems that lower your carbon footprint and bills.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TEAM -->
+  <section class="team" id="team">
+    <div class="container">
+      <div class="section-header" data-aos="fade-down">
+        <span class="section-subtitle">meet the experts</span>
+        <h2>Behind every comfortable space</h2>
+        <p>Our NATE-certified technicians bring decades of experience</p>
+      </div>
+      <div class="team-grid">
+        <div class="team-card" data-aos="fade-up" data-aos-delay="100">
+          <div class="team-img">
+            <img
+              src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&auto=format&fit=crop&q=80"
+              alt="Michael Chen – Lead Engineer"
+            >
+          </div>
+          <h3>Michael Chen</h3>
+          <p class="team-role">Lead Engineer, NATE certified</p>
+          <div class="team-social">
+            <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+          </div>
+        </div>
+        <div class="team-card" data-aos="fade-up" data-aos-delay="200">
+          <div class="team-img">
+            <img
+              src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=300&auto=format&fit=crop&q=80"
+              alt="Sarah Vazquez – Service Manager"
+            >
+          </div>
+          <h3>Sarah Vazquez</h3>
+          <p class="team-role">Service Manager, IAQ specialist</p>
+          <div class="team-social">
+            <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+          </div>
+        </div>
+        <div class="team-card" data-aos="fade-up" data-aos-delay="300">
+          <div class="team-img">
+            <img
+              src="https://images.unsplash.com/photo-1506277886164-e25aa3f4ef7f?w=300&auto=format&fit=crop&q=80"
+              alt="David Okafor – Senior Technician"
+            >
+          </div>
+          <h3>David Okafor</h3>
+          <p class="team-role">Senior technician, commercial HVAC</p>
+          <div class="team-social">
+            <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+          </div>
+        </div>
+        <div class="team-card" data-aos="fade-up" data-aos-delay="400">
+          <div class="team-img">
+            <img
+              src="https://images.unsplash.com/photo-1580489944761-15a19d654956?w=300&auto=format&fit=crop&q=80"
+              alt="Elena Rossi – Customer Comfort Consultant"
+            >
+          </div>
+          <h3>Elena Rossi</h3>
+          <p class="team-role">Customer comfort consultant</p>
+          <div class="team-social">
+            <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section class="testimonials" id="testimonials">
+    <div class="container">
+      <div class="section-header" data-aos="fade-down">
+        <span class="section-subtitle">what our clients say</span>
+        <h2>Trusted by homeowners & businesses</h2>
+      </div>
+      <div class="testimonials-grid">
+        <div class="testimonial-card" data-aos="zoom-in" data-aos-delay="100">
+          <i class="fas fa-quote-left quote-icon"></i>
+          <p>"Polaris installed a new heat pump for our 1920s home. The attention to detail was incredible – they even matched the new ducts to our existing layout perfectly. Our energy bills dropped 30%."</p>
+          <div class="testimonial-author">
+            <img
+              src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&auto=format&fit=crop&q=80"
+              alt="Linda Carter"
+            >
+            <div>
+              <h4>Linda Carter</h4>
+              <span>Homeowner, Austin</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card" data-aos="zoom-in" data-aos-delay="200">
+          <i class="fas fa-quote-left quote-icon"></i>
+          <p>"We manage a 12-story office building and Polaris handles all our HVAC maintenance. Their response time is unmatched, and the team always communicates clearly. Highly recommend."</p>
+          <div class="testimonial-author">
+            <img
+              src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=100&auto=format&fit=crop&q=80"
+              alt="James Miller"
+            >
+            <div>
+              <h4>James Miller</h4>
+              <span>Facility Manager, Metro Tower</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card" data-aos="zoom-in" data-aos-delay="300">
+          <i class="fas fa-quote-left quote-icon"></i>
+          <p>"Our restaurant kitchen relies on perfect ventilation. The team at Polaris designed a custom system that keeps the air clean and the temperature comfortable even during dinner rush."</p>
+          <div class="testimonial-author">
+            <img
+              src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=100&auto=format&fit=crop&q=80"
+              alt="Sofia Nguyen"
+            >
+            <div>
+              <h4>Sofia Nguyen</h4>
+              <span>Owner, Basil & Lime</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <div class="section-header light" data-aos="fade-down">
+        <span class="section-subtitle">get in touch</span>
+        <h2>Request a free consultation</h2>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-form" data-aos="fade-right">
+          <form action="#" method="post">
+            <div class="input-row">
+              <input type="text" placeholder="Full name" required>
+              <input type="email" placeholder="Email address" required>
+            </div>
+            <div class="input-row">
+              <input type="tel" placeholder="Phone number">
+              <select>
+                <option>Service needed</option>
+                <option>AC repair</option>
+                <option>Heating installation</option>
+                <option>Ventilation</option>
+              </select>
+            </div>
+            <textarea placeholder="Tell us about your project..." rows="5"></textarea>
+            <button type="submit" class="btn-primary btn-block">Send request <i class="fas fa-paper-plane"></i></button>
+          </form>
+        </div>
+        <div class="contact-info" data-aos="fade-left">
+          <div class="info-card">
+            <i class="fas fa-phone-alt"></i>
+            <div>
+              <h5>Call us anytime</h5>
+              <p>(888) 456-7890</p>
+            </div>
+          </div>
+          <div class="info-card">
+            <i class="fas fa-envelope"></i>
+            <div>
+              <h5>Email</h5>
+              <p>hello@polarishvac.com</p>
+            </div>
+          </div>
+          <div class="info-card">
+            <i class="fas fa-map-marker-alt"></i>
+            <div>
+              <h5>Headquarters</h5>
+              <p>3140 Comfort Lane, Austin, TX</p>
+            </div>
+          </div>
+          <div class="map-placeholder">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3447.0!2d-97.7431!3d30.2672!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8644b59b13c08539%3A0x8e77c37f35e1f2e0!2sAustin%2C%20TX!5e0!3m2!1sen!2sus!4v1700000000000!5m2!1sen!2sus"
+              width="100%"
+              height="240"
+              style="border:0; border-radius:16px; display:block;"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              title="Polaris HVAC location – Austin, TX"
+            ></iframe>
+            <p class="map-caption"><i class="fas fa-map-pin"></i> we serve all surrounding areas</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="main-footer">
+    <div class="container footer-grid">
+      <div class="footer-about">
+        <h3>Polaris<span>HVAC</span></h3>
+        <p>Premium heating, cooling and air quality solutions since 1998. We treat your home like ours.</p>
+        <div class="social-links">
+          <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+          <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+      </div>
+      <div class="footer-links">
+        <h5>Services</h5>
+        <ul>
+          <li><a href="#">AC installation</a></li>
+          <li><a href="#">Furnace repair</a></li>
+          <li><a href="#">Duct cleaning</a></li>
+          <li><a href="#">Emergency HVAC</a></li>
+        </ul>
+      </div>
+      <div class="footer-links">
+        <h5>Company</h5>
+        <ul>
+          <li><a href="#">About us</a></li>
+          <li><a href="#">Careers</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Service areas</a></li>
+        </ul>
+      </div>
+      <div class="footer-newsletter">
+        <h5>Stay comfortable</h5>
+        <p>Subscribe to tips & special offers</p>
+        <form>
+          <input type="email" placeholder="your@email.com">
+          <button type="submit" aria-label="Subscribe"><i class="fas fa-arrow-right"></i></button>
+        </form>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2025 Polaris HVAC. Images via Unsplash. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- AOS & custom JS -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
