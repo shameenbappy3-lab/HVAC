@@ -67,6 +67,42 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
   });
 });
 
+<<<<<<< HEAD
+=======
+// ── Contact form submission ────────────────────────────────────
+const contactForm = document.querySelector('.contact-form form');
+if (contactForm) {
+  contactForm.addEventListener('submit', function (e) {
+    e.preventDefault();
+
+    const btn = contactForm.querySelector('button[type="submit"]');
+    btn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Sending…';
+    btn.disabled = true;
+
+    // Simulate network delay (replace with EmailJS or backend call)
+    setTimeout(() => {
+      contactForm.innerHTML = `
+        <div class="form-success" role="alert">
+          <div class="form-success-icon"><i class="fas fa-check"></i></div>
+          <h3>Request received!</h3>
+          <p>Thanks for reaching out. We'll call you back within a few hours.</p>
+        </div>`;
+    }, 1400);
+  });
+}
+
+// ── Newsletter form ────────────────────────────────────────────
+const newsletterForm = document.querySelector('.footer-newsletter form');
+if (newsletterForm) {
+  newsletterForm.addEventListener('submit', function (e) {
+    e.preventDefault();
+    const input = newsletterForm.querySelector('input');
+    if (!input.value) return;
+    newsletterForm.innerHTML = '<p style="color:#FFB200;font-size:0.88rem;padding:10px 0">✓ You\'re subscribed!</p>';
+  });
+}
+
+>>>>>>> master
 // ── Active nav highlight on scroll ────────────────────────────
 const sections  = document.querySelectorAll('section[id]');
 const navLinks  = document.querySelectorAll('.nav-menu a');
