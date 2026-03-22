@@ -67,8 +67,6 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
   });
 });
 
-<<<<<<< HEAD
-=======
 // ── Contact form submission ────────────────────────────────────
 const contactForm = document.querySelector('.contact-form form');
 if (contactForm) {
@@ -101,8 +99,6 @@ if (newsletterForm) {
     newsletterForm.innerHTML = '<p style="color:#FFB200;font-size:0.88rem;padding:10px 0">✓ You\'re subscribed!</p>';
   });
 }
-
->>>>>>> master
 // ── Active nav highlight on scroll ────────────────────────────
 const sections  = document.querySelectorAll('section[id]');
 const navLinks  = document.querySelectorAll('.nav-menu a');
